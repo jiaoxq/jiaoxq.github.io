@@ -1,0 +1,152 @@
+.banner-cs{
+	background: url(../img/cs.jpg) 0 -200px;
+	width: 100%;
+	height: 370px;
+	background-size: cover;
+	margin-bottom: 200px;
+}
+.city-img{
+	margin-top: 50px;
+}
+.list-city{
+	margin-top: -150px;
+}
+.list-city ul{
+	margin-left: 50px;
+}
+.list-city ul li{
+	float: left;
+	padding: 20px;
+	font-size: 25px;
+}
+.gn-city-img p,.hw-city-img p{
+	font-size: 30px;
+	padding: 20px 0 0 10px;
+	color: aliceblue;
+}
+.city1{
+	height: 360px;
+	width: 660px;
+	margin-left: 50px;
+	background: url(../img/hz.jpg) 0 -20px;
+	background-size: cover;
+	float: left;
+	margin-bottom: 40px;
+	border-radius: 20px;
+}
+.city2{
+	height: 360px;
+	width: 660px;
+	margin-right: 50px;
+	background: url(../img/sh.jpg);
+	background-size: cover;
+	float: right;
+	margin-bottom: 40px;
+	border-radius: 20px;
+}
+.city3{
+	height: 360px;
+	width: 660px;
+	margin-left: 50px;
+	background: url(../img/bj.jpg) 0 -20px;
+	background-size: cover;
+	float: left;
+	margin-bottom: 40px;
+	border-radius: 20px;
+}
+.city4{
+	height: 360px;
+	width: 660px;
+	margin-right: 50px;
+	background: url(../img/sz.jpg) 0 -20px;
+	background-size: cover;
+	float: right;
+	margin-bottom: 40px;
+	border-radius: 20px;
+}
+.city5{
+	height: 360px;
+	width: 660px;
+	margin-left: 50px;
+	background: url(../img/gz.jpg) 0 -20px;
+	background-size: cover;
+	float: left;
+	margin-bottom: 40px;
+	border-radius: 20px;
+}
+.city6{
+	height: 360px;
+	width: 660px;
+	margin-right: 50px;
+	background: url(../img/cd.jpg) 0 -20px;
+	background-size: cover;
+	float: right;
+	margin-bottom: 40px;
+	border-radius: 20px;
+}
+.city11{
+	height: 360px;
+	width: 660px;
+	margin-left: 50px;
+	background: url(../img/sn.jpg) 0 -20px;
+	background-size: cover;
+	float: left;
+	margin-bottom: 40px;
+	border-radius: 20px;
+}
+.city22{
+	height: 360px;
+	width: 660px;
+	margin-right: 50px;
+	background: url(../img/xyt.jpg);
+	background-size: cover;
+	float: right;
+	margin-bottom: 40px;
+	border-radius: 20px;
+}
+.city33{
+	height: 360px;
+	width: 660px;
+	margin-left: 50px;
+	background: url(../img/ny.jpg) 0 -20px;
+	background-size: cover;
+	float: left;
+	margin-bottom: 40px;
+	border-radius: 20px;
+}
+.city44{
+	height: 360px;
+	width: 660px;
+	margin-right: 50px;
+	background: url(../img/mnh.jpg) 0 -20px;
+	background-size: cover;
+	float: right;
+	margin-bottom: 40px;
+	border-radius: 20px;
+}
+.city55{
+	height: 360px;
+	width: 660px;
+	margin-left: 50px;
+	background: url(../img/ld.jpg) 0 -20px;
+	background-size: cover;
+	float: left;
+	margin-bottom: 40px;
+	border-radius: 20px;
+}
+.city66{
+	height: 360px;
+	width: 660px;
+	margin-right: 50px;
+	background: url(../img/bl.jpg) 0 -20px;
+	background-size: cover;
+	float: right;
+	margin-bottom: 40px;
+	border-radius: 20px;
+}
+#li1{
+	color: coral;
+}
+#li2{
+	color: #cdd2d9;
+}

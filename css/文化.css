@@ -1,0 +1,93 @@
+.banner-wh{
+	background: url(../img/wh.jpg) 0 -150px;
+	width: 100%;
+	height: 500px;
+	background-size: cover;
+	margin-bottom: 200px;
+}
+.culture-img1{
+	width: 100%;
+	height: 400px;
+	background: url(../img/fw-1.jpg);
+	background-size: cover;
+	margin-right: 10px;
+	border-radius: 20px;
+}
+.culture-img2{
+	width: 100%;
+	height: 400px;
+	background: url(../img/fw-2.jpg);
+	background-size: cover;
+	margin-right: 10px;
+	border-radius: 20px;
+}
+.culture-img3{
+	width: 100%;
+	height: 400px;
+	background: url(../img/fw-3.jpg);
+	background-size: cover;
+	margin-right: 10px;
+	border-radius: 20px;
+}
+.culture-img4{
+	width: 100%;
+	height: 400px;
+	background: url(../img/fw-4.jpg);
+	background-size: cover;
+	margin-right: 10px;
+	border-radius: 20px;
+}
+.culture-img5{
+	width: 100%;
+	height: 400px;
+	background: url(../img/fw-5.jpg);
+	background-size: cover;
+	margin-right: 10px;
+	border-radius: 20px;
+}
+.culture-img6{
+	width: 100%;
+	height: 400px;
+	background: url(../img/fw-6.jpg);
+	background-size: cover;
+	margin-right: 10px;
+	border-radius: 20px;
+}
+.img-text{
+	width: 500px;
+	height: 150px;
+	background-color: #cdd2d9;
+	position: relative;
+	left: 700px;
+	top: 100px;
+	
+}
+.img-text-5{
+	width: 500px;
+	height: 250px;
+	background-color: #cdd2d9;
+	position: relative;
+	left: 700px;
+	top: 100px;
+	
+}
+.img-text-6{
+	width: 500px;
+	height: 300px;
+	background-color: #cdd2d9;
+	position: relative;
+	left: 700px;
+	top: 50px;
+	
+}
+.img-text p,.img-text-5 p,.img-text-6 p{
+	font-size: 20px;
+	padding-top: 30px;
+	padding-left: 20px;
+}
+#li1{
+	color: coral;
+}
+.culture{
+	margin-bottom: 50px;
+}
