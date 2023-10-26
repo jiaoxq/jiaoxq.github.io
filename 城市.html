@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<link rel="stylesheet" href="css/all.css">
+	<link rel="stylesheet" href="css/城市.css">
+	<body>
+		<div class="list-box">
+			<ul class="header clearfix">
+				<li class="img"><img src="img/alibaba-logo.png" alt=""></li>
+		
+				<li class="que"><a href="首页.html">首页</a></li>
+				<li class="que second"><a href="#">公司文化</a>
+					<ul>
+						<li><a href="福利.html">薪酬福利</a></li>
+						<li><a href="文化.html">文化氛围</a></li>
+					</ul>
+				</li>
+				<li class="que"><a href="招聘.html">阿里招聘</a></li>
+				<li class="que dq"><a href="城市.html">工作城市</a></li>
+				<li class="que"><a href="个人.html">个人中心</a></li>
+				<li><a href="登录.html">登录</a></li>
+			</ul>
+		</div>
+		<div class="banner-cs">
+			
+		</div>
+		<div class="list-city clearfix">
+			<ul>
+				<li class="cc gn" id="li1">国内城市</li>
+				<li class="cc hw" id="li2">海外城市</li>
+			</ul>
+		</div>
+		<div class="city-img">
+			<div id="gn" class="gn-city clearfix xs">
+				<div class="gn-city-img city1">
+					<p>杭州，中国</p>
+				</div>
+				<div class="gn-city-img city2">
+					<p>上海，中国</p>
+				</div>
+				<div class="gn-city-img city3">
+					<p>北京，中国</p>
+				</div>
+				<div class="gn-city-img city4">
+					<p>深圳，中国</p>
+				</div>
+				<div class="gn-city-img city5">
+					<p>广州，中国</p>
+				</div>
+				<div class="gn-city-img city6">
+					<p>成都，中国</p>
+				</div>
+			</div>
+			<div id="hw" class="hw-city-img clearfix xs" style="display: none;">
+				<div class="hw-city-img city11">
+					<p>森尼维尔，美国</p>
+				</div>
+				<div class="hw-city-img city22">
+					<p>西雅图，美国</p>
+				</div>
+				<div class="hw-city-img city33">
+					<p>纽约，美国</p>
+				</div>
+				<div class="hw-city-img city44">
+					<p>慕尼黑，德国</p>
+				</div>
+				<div class="hw-city-img city55">
+					<p>伦敦，英国</p>
+				</div>
+				<div class="hw-city-img city66">
+					<p>巴黎，法国</p>
+				</div>
+			</div>
+		</div>
+		
+		<footer>
+			<div class="footer">
+				<div class="footer-top clearfix">
+					<div class="footer-top-left">
+						<img src="img/footer.webp" alt="">
+					</div>
+					<div class="footer-top-right">
+						<p>关注我们</p>
+						<img src="img/zh.png " alt="">
+						<img src="img/wx.png" alt="">
+						<img src="img/bilibili.png" alt="">
+						<img src="img/dy.png" alt="">
+						<img src="img/xhs.png" alt="">
+						<img src="img/wb.png" alt="">
+					</div>
+				</div>
+				<div class="footer-bottom clearfix">
+					<div class="footer-bottom-left">
+						Powered by 阿里巴巴集团 © 2023 阿里巴巴集团版权所有
+					</div>
+					<div class="footer-bottom-right">
+						如需咨询招聘相关事宜，请拨打咨询电话：0571-81595900
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+	<script>
+		//使用排他思想
+		//获取导航栏按钮
+		let lis = document.querySelectorAll('.cc')
+		//获取三个要切换的盒子
+		let hw = document.getElementById('hw')
+		let gn = document.getElementById('gn')
+		
+		//点击导航栏，改变Iframe的src属性，实现页面切换
+		for (let i = 0; i < lis.length; i++) {
+			//绑定点击事件
+			lis[i].onclick = function(event) {
+				if (event.target.classList.contains('gn')) {
+					changPage()
+					gn.style.display = 'block'
+					li1.style.color = 'coral'
+				} else if (event.target.classList.contains('hw')) {
+					changPage()
+					hw.style.display = 'block'
+					li2.style.color = 'coral'
+				} 
+			}
+	
+		}
+		//封装一个排他思想的函数
+		function changPage() {
+			//获取所有page
+			document.querySelectorAll('.xs').forEach(el => {
+				el.style.display = 'none'
+			})
+			document.querySelectorAll('.cc').forEach(el => {
+			
+				el.style.color = '#cdd2d9'
+			})
+		}
+	</script>
+</html>
